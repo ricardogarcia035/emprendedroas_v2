@@ -144,7 +144,7 @@ class _RegisterDeviceViewState extends State<RegisterDeviceView> {
                   child: SizedBox(
                       width: MediaQuery.of(context).size.width / 2.5,
                       height: MediaQuery.of(context).size.width / 2.5,
-                      child: Image.asset('assets/icons/icon.png')),
+                      child: Image.asset('assets/icons/user_women.png', color: Colors.pinkAccent,)),
                 ),
               ),
               Form(

@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:new_app_v2/views/PromoterView.dart';
+import 'package:new_app_v2/views/RegisterDeviceView.dart';
 // import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 import 'views/MainAppView.dart';
@@ -58,7 +60,9 @@ class _MyAppState extends State<MyApp> {
         //     ),
         //     fontFamily: 'Roboto'),
         // title: 'SWIT DEV',
-        home: MainAppView(),
+         home: MainAppView(),
+        // home: RegisterDeviceView(),
+        // home: PromoterView(),
       
     );
   }

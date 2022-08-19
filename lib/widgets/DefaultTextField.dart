@@ -96,7 +96,7 @@ class _DefaultTextFieldState extends State<DefaultTextField> {
                     style: TextStyle(
                         color: Color(0XFF777499),
                         //fontSize: (labelTextSize - 6).sp),
-                        fontSize: (8)),
+                        fontSize: (20)),
                   )),
             ),
             Container(
@@ -117,7 +117,7 @@ class _DefaultTextFieldState extends State<DefaultTextField> {
                 inputFormatters: widget.textInputFormatter,
                 style: TextStyle(
                     //color: Color(0XFF777499), fontSize: labelTextSize.sp),
-                    color: Color(0XFF777499), fontSize: 10),
+                    color: Color(0XFF777499), fontSize: 20),
                 controller: widget.controller,
                 decoration: buildDefaultInputDecoration(
                     widget.fieldName, context,

@@ -31,7 +31,7 @@ class _MainAppViewState extends State<MainAppView> with WidgetsBindingObserver {
                 child: SizedBox(
                     width: MediaQuery.of(context).size.width / 2,
                     height: MediaQuery.of(context).size.width / 2,
-                    child: Image.asset('assets/icons/user_women.png', color: Colors.pink,)),
+                    child: Image.asset('assets/icons/user_women.png', color: Colors.pinkAccent,)),
               ),
               Form(
                   key: formKey,
